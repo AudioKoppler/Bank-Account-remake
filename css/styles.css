@@ -42,6 +42,10 @@ body {
   display: none;
 }
 
+#sign-up {
+  display: none;
+}
+
 h4 {
   text-align: left;
   padding-bottom: 10px;
@@ -58,4 +62,8 @@ h1 {
   border: solid black 1px;
   box-shadow: 3px 3px 2.5px #535233ab;
 
+}
+
+.page-header>h1 {
+  background-color: rgba(224, 181, 110, 0.575);
 }
