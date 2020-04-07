@@ -30,7 +30,7 @@ $(document).ready(function () {
     //showing deposit-withdraw after name and deposit input
     $("#deposit-withdraw").show(); //showing deposit-withdraw after name and deposit
     $(".account").show();
-    $(".name").text(newAccount.name);
+    $(".name").text(inputName);
     $(".accountBalance").text(newAccount.balance.toFixed(2));
 
 
